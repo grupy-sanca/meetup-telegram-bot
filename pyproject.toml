@@ -8,6 +8,7 @@ packages = [{include = "meetup_telegram_bot"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
+pydantic = "^2.8.2"
 
 
 [build-system]

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "meetup-telegram-bot"
+version = "0.1.0"
+description = "Bot to share Meetup events on Telegram periodically"
+authors = ["grupy-sanca <contato@grupysanca.com.br"]
+readme = "README.md"
+packages = [{include = "meetup_telegram_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
